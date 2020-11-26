@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+
+body {
+    background:  #E5E5E5 url(/assets/bg.png) no-repeat 100%;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header nav ul {
+display: flex;
+list-style: none;
+margin: 0 3rem;
+border-bottom: 1px black solid;
+}
+
+header nav ul li {
+display: flex;
+margin: 3rem 6rem;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+}
+
+header img {
+    margin: 0 3rem;
+}
+
+main{
+    height: 100vh;
+}
+
+main h1{
+    margin: 5rem 10rem 0 10rem;
+}
+
+main p {
+    margin: 0 25rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    background-color: #81AEAF ;
+    text-align: center;
+}
+
+footer p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;  
+}
+
+h1{
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 87px;
+}
+  
+p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 33px;
+    }
+
+.ideia, .empathy, .book {
+    width: 200px;
+    height: 200px;
+}
+
+.title{
+width: 432px;
+height: 335px;
+}
+
+.logo {
+    width: 235px;
+    height: 220px;
+    top: -1;
+}
+
+.what {
+    height: 100vh;
+    background-color: #81AEAF ;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.what h1 {
+    margin: 3rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 1rem;
+}
+
+.container div {
+    width: 456px;
+    height: 153px;
+    
+}
+
+.container p {
+    margin: 3rem 0;
+    text-align: center;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+}
+
+.people h1{
+    margin: 2rem ;
+}
+
+.people p{
+width: 432px;
+height: 33px;
+text-align: center;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.people div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+
+}
